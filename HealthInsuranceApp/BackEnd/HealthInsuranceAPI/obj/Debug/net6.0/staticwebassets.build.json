@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Tfdbi4OaFZh4NQZU4TJlzshimpZfSgMXKRQJWj1GVQs=",
+  "Source": "HealthInsuranceAPI",
+  "BasePath": "_content/HealthInsuranceAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
