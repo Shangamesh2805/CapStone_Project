@@ -4,9 +4,10 @@ namespace HealthInsuranceAPI.Repositories.Interfaces
 {
     public interface IUserRepository
     {
-        User GetUser(int userId);
-        void AddUser(User user);
-        void UpdateUser(User user);
-        void DeleteUser(int userId);
+        Task<User> Register(User user, string password);
+        Task<User> Login(string email, string password);
+        Task<bool> UserExists(string email);
+        Task<User> GetUserById(Guid id);
+        Task<User> UpdateUser(User user);
     }
 }

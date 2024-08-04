@@ -1,11 +1,14 @@
-﻿using HealthInsuranceAPI.Exceptions;
-using HealthInsuranceAPI.Models;
+﻿using HealthInsuranceAPI.Models;
 using HealthInsuranceAPI.Repositories.Interfaces;
 using HealthInsuranceApp.Data;
-using HealthInsuranceApp.Models;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace HealthInsuranceApp.Repositories
+namespace HealthInsuranceAPI.Repositories
 {
     public class UserRepository : IUserRepository
     {
@@ -16,56 +19,60 @@ namespace HealthInsuranceApp.Repositories
             _context = context;
         }
 
-        public User GetUser(int userId)
+        public async Task<User> Register(User user, string password)
         {
-            return _context.Users.Find(userId);
+            user.PasswordSalt = GenerateSalt();
+            user.PasswordHash = ComputeHash(password, user.PasswordSalt);
+
+            await _context.Users.AddAsync(user);
+            await _context.SaveChangesAsync();
+            return user;
         }
 
-        public void AddUser(User user)
+        public async Task<User> Login(string email, string password)
         {
-            try
+            var user = await _context.Users.SingleOrDefaultAsync(u => u.Email == email);
+            if (user == null || !VerifyPassword(password, user.PasswordHash, user.PasswordSalt))
             {
-                _context.Users.Add(user);
-                _context.SaveChanges();
+                return null;
             }
-            catch {
-                throw new UnknownErrorException();
-            }
+            return user;
         }
 
-        public void UpdateUser(User user)
+        public async Task<bool> UserExists(string email)
         {
-            try
-            {
-                _context.Users.Update(user);
-                _context.SaveChanges();
-            }
-            catch(Exception) 
-            {
-                throw new UserNotFoundException();
-            }
+            return await _context.Users.AnyAsync(u => u.Email == email);
         }
 
-        public void DeleteUser(int userId)
+        private byte[] GenerateSalt()
         {
-            try
-            {
-                var user = GetUser(userId);
-                if (user != null)
-                {
-                    _context.Users.Remove(user);
-                    _context.SaveChanges();
-                }
-                else
-                {
-                    throw new UserNotFoundException();
-                }
-            }
-            catch (Exception)
-            {
-                throw new Exception("Unable tp delete the User");
+            using var hmac = new HMACSHA512();
+            return hmac.Key;
+        }
 
-            }
+        private byte[] ComputeHash(string password, byte[] salt)
+        {
+            using var hmac = new HMACSHA512(salt);
+            return hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
+        }
+
+        private bool VerifyPassword(string password, byte[] storedHash, byte[] storedSalt)
+        {
+            using var hmac = new HMACSHA512(storedSalt);
+            var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
+            return computedHash.SequenceEqual(storedHash);
+        }
+
+        public async Task<User> GetUserById(Guid id)
+        {
+            return await _context.Users.FindAsync(id);
+        }
+
+        public async Task<User> UpdateUser(User user)
+        {
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+            return user;
         }
     }
 }

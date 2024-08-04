@@ -1,9 +1,12 @@
-﻿using HealthInsuranceAPI.Repositories.Interfaces;
-using HealthInsuranceApp.Data;
-using HealthInsuranceApp.Models;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using HealthInsuranceAPI.Models;
+using HealthInsuranceAPI.Repositories.Interfaces;
+using HealthInsuranceApp.Data;
+using Microsoft.EntityFrameworkCore;
 
-namespace HealthInsuranceApp.Repositories
+namespace HealthInsuranceAPI.Repositories
 {
     public class ClaimRepository : IClaimRepository
     {
@@ -14,31 +17,86 @@ namespace HealthInsuranceApp.Repositories
             _context = context;
         }
 
-        public Claim GetClaim(int claimId)
+        public Claim GetClaim(Guid claimId)
         {
-            return _context.Claims.Find(claimId);
+            try
+            {
+                return _context.Claims.Find(claimId);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error fetching the claim", ex);
+            }
         }
 
-        public void AddClaim(Claim claim)
+        public void RaiseClaim(Claim claim)
         {
-            _context.Claims.Add(claim);
-            _context.SaveChanges();
+            try
+            {
+                _context.Claims.Add(claim);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error adding the claim", ex);
+            }
         }
 
         public void UpdateClaim(Claim claim)
         {
-            _context.Claims.Update(claim);
-            _context.SaveChanges();
-        }
-
-        public void DeleteClaim(int claimId)
-        {
-            var claim = GetClaim(claimId);
-            if (claim != null)
+            try
             {
-                _context.Claims.Remove(claim);
+                _context.Entry(claim).State = EntityState.Modified;
                 _context.SaveChanges();
             }
+            catch (Exception ex)
+            {
+                throw new Exception("Error updating the claim", ex);
+            }
+        }
+
+        public void DeleteClaim(Guid claimId)
+        {
+            try
+            {
+                var claim = _context.Claims.Find(claimId);
+                if (claim != null)
+                {
+                    _context.Claims.Remove(claim);
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error deleting the claim", ex);
+            }
+        }
+
+        public void UpdateClaimStatus(Guid claimId, ClaimStatus status)
+        {
+            try
+            {
+                var claim = _context.Claims.Find(claimId);
+                if (claim != null)
+                {
+                    claim.ClaimStatus = status;
+                    _context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error updating the claim status", ex);
+            }
+        }
+        public IEnumerable<Claim> GetAllClaims()
+        {
+            return _context.Claims.ToList();
+        }
+        public IEnumerable<Claim> GetClaimsByCustomerPolicy(Guid customerPolicyId) 
+        {
+            return _context.Claims
+                .Where(c => c.CustomerPolicyID == customerPolicyId)
+                .ToList();
         }
     }
 }

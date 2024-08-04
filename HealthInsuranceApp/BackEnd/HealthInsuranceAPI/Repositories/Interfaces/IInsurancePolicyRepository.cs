@@ -4,9 +4,10 @@ namespace HealthInsuranceAPI.Repositories.Interfaces
 {
     public interface IInsurancePolicyRepository
     {
-        InsurancePolicy GetPolicy(int policyId);
         void AddPolicy(InsurancePolicy policy);
+        InsurancePolicy GetPolicyById(Guid policyId);
         void UpdatePolicy(InsurancePolicy policy);
-        void DeletePolicy(int policyId);
+        void DeletePolicy(Guid policyId);
+        IEnumerable<InsurancePolicy> GetAllPolicies();
     }
 }

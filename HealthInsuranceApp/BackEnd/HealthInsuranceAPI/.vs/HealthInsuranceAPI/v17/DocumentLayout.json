@@ -1,102 +1,382 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\exceptions\\agentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\agentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\agentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\agentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\exceptions\\unknownerrorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\unknownerrorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\payment\\renewalpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\payment\\renewalpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\payment\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\payment\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\customerpolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\customerpolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\insurancepolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\insurancepolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\contexts\\healthinsuranceappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\contexts\\healthinsuranceappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:contexts\\healthinsuranceappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\renewalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\renewalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\models\\customerpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\irenewalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\irenewalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\renewalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\renewalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\renewal\\renewalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\renewal\\renewalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\renewal\\createrenewaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\renewal\\createrenewaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\renewal\\renewaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\renewal\\renewaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\renewalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\renewalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\claimservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\claimservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\claims\\createclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\claims\\createclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\claims\\claimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\claims\\claimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\customerpolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\customerpolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\revivalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\revivalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\customerpolicyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\customerpolicyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\customerpolicy\\customerpolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\customerpolicy\\customerpolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\customerpolicycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\customerpolicycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\agentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\agentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\renewal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\renewal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\revival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\revival.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\customerpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\customerpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\customerpolicy\\updatecustomerpolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\customerpolicy\\updatecustomerpolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\customerpolicy\\createcustomerpolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\customerpolicy\\createcustomerpolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\insurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\insurancepolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\insurancepolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\insurancepolicycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\insurancepolicycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\healthinsuranceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:healthinsuranceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\exceptions\\unknownerrorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\unknownerrorexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\interfaces\\iagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\iagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\revivalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\revivalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\interfaces\\icustomerpolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\icustomerpolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\renewal\\updaterenewaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\renewal\\updaterenewaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\agentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\agentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\irevivalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\irevivalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\revivalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\revivalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\revival\\revivaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\revival\\revivaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\revival\\createrevivaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\revival\\createrevivaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\insurancepolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\insurancepolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\auth\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\auth\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\interfaces\\iinsurancepolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\icustomerpolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\icustomerpolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\policy\\policydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\policy\\policydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\auth\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\auth\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\icustomerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\icustomerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\policy\\createpolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\policy\\createpolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\customerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\customerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\interfaces\\irevivalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\irevivalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\revival\\updaterevivaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\revival\\updaterevivaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:healthinsuranceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\auth\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\auth\\loginreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Migrations\\20240731095621_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240731095621_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\interfaces\\irenewalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\irenewalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\interfaces\\iinsurancepolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\iinsurancepolicyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\healthinsuranceapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\iclaimservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\iclaimservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\iagentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\iagentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\claims\\updateclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\claims\\updateclaimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\services\\interfaces\\iinsurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:services\\interfaces\\iinsurancepolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\agents\\createagentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\agents\\createagentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\agents\\agentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\agents\\agentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\policy\\updatepolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\policy\\updatepolicydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\customers\\updatecustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\customers\\updatecustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\customers\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\customers\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\customers\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\customers\\createcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\models\\dtos\\agents\\updateagentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:models\\dtos\\agents\\updateagentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\repositories\\interfaces\\iagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:repositories\\interfaces\\iagentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\exceptions\\invalidoperationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\invalidoperationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\exceptions\\claiminvalidexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\claiminvalidexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\exceptions\\agentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\agentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\migrations\\20240731154039_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:migrations\\20240731154039_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|c:\\users\\vc\\downloads\\capsstone\\backend\\healthinsuranceapi\\migrations\\20240801023246_seedinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9F1D6B4-1D0B-4DAE-B9B3-FEE50051AB8F}|HealthInsuranceAPI.csproj|solutionrelative:migrations\\20240801023246_seedinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,319 +386,1149 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AgentNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Exceptions\\AgentNotFoundException.cs",
-              "RelativeDocumentMoniker": "Exceptions\\AgentNotFoundException.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Exceptions\\AgentNotFoundException.cs",
-              "RelativeToolTip": "Exceptions\\AgentNotFoundException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T10:55:42.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UnknownErrorException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Exceptions\\UnknownErrorException.cs",
-              "RelativeDocumentMoniker": "Exceptions\\UnknownErrorException.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Exceptions\\UnknownErrorException.cs",
-              "RelativeToolTip": "Exceptions\\UnknownErrorException.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Title": "RenewalPaymentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Payment\\RenewalPaymentDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Payment\\RenewalPaymentDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Payment\\RenewalPaymentDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Payment\\RenewalPaymentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T10:50:27.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserNotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Exceptions\\UserNotFoundException.cs",
-              "RelativeDocumentMoniker": "Exceptions\\UserNotFoundException.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Exceptions\\UserNotFoundException.cs",
-              "RelativeToolTip": "Exceptions\\UserNotFoundException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T10:30:17.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAywEQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T07:24:10.562Z",
+              "WhenOpened": "2024-08-04T14:19:56.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AgentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\AgentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AgentRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\AgentRepository.cs",
-              "RelativeToolTip": "Repositories\\AgentRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBkAAAAzAAAA",
+              "Title": "PaymentServices.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\PaymentServices.cs",
+              "RelativeDocumentMoniker": "Services\\PaymentServices.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\PaymentServices.cs",
+              "RelativeToolTip": "Services\\PaymentServices.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAzwBoAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T07:26:15.671Z",
+              "WhenOpened": "2024-07-30T05:53:34.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CustomerPolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\CustomerPolicyRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CustomerPolicyRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\CustomerPolicyRepository.cs",
-              "RelativeToolTip": "Repositories\\CustomerPolicyRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwC0AAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "PaymentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Payment\\PaymentDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Payment\\PaymentDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Payment\\PaymentDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Payment\\PaymentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T07:29:14.861Z",
+              "WhenOpened": "2024-07-30T05:52:41.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T16:20:26.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA0AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T05:56:24.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PaymentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\PaymentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\PaymentRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\PaymentRepository.cs",
-              "RelativeToolTip": "Repositories\\PaymentRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T07:57:09.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InsurancePolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\InsurancePolicyRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\InsurancePolicyRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\InsurancePolicyRepository.cs",
-              "RelativeToolTip": "Repositories\\InsurancePolicyRepository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAiwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T07:28:37.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "Repositories\\CustomerRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T07:25:23.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "HealthInsuranceAppContext.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Contexts\\HealthInsuranceAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Contexts\\HealthInsuranceAppContext.cs",
               "RelativeDocumentMoniker": "Contexts\\HealthInsuranceAppContext.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Contexts\\HealthInsuranceAppContext.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Contexts\\HealthInsuranceAppContext.cs",
               "RelativeToolTip": "Contexts\\HealthInsuranceAppContext.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAIwDYAAAAuAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAG0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T09:40:14.792Z",
+              "WhenOpened": "2024-07-31T09:52:45.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\Payment.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "Models\\Payment.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Payment.cs",
               "RelativeToolTip": "Models\\Payment.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwA8AAAAFAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvxcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T04:15:53.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Claim.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\Claim.cs",
-              "RelativeDocumentMoniker": "Models\\Claim.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\Claim.cs",
-              "RelativeToolTip": "Models\\Claim.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "RenewalController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\RenewalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RenewalController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\RenewalController.cs",
+              "RelativeToolTip": "Controllers\\RenewalController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T04:15:32.205Z",
+              "WhenOpened": "2024-07-30T04:08:39.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRenewalService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IRenewalService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IRenewalService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IRenewalService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IRenewalService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:07:59.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CustomerPolicy.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\CustomerPolicy.cs",
-              "RelativeDocumentMoniker": "Models\\CustomerPolicy.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\CustomerPolicy.cs",
-              "RelativeToolTip": "Models\\CustomerPolicy.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwA0AAAA6AAAA",
+              "Title": "RenewalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Renewal\\RenewalDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Renewal\\RenewalDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Renewal\\RenewalDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Renewal\\RenewalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T04:18:00.2Z",
+              "WhenOpened": "2024-07-31T08:57:56.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RenewalService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\RenewalService.cs",
+              "RelativeDocumentMoniker": "Services\\RenewalService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\RenewalService.cs",
+              "RelativeToolTip": "Services\\RenewalService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T19:25:56.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RenewalResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Renewal\\RenewalResponseDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Renewal\\RenewalResponseDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Renewal\\RenewalResponseDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Renewal\\RenewalResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T13:10:20.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateRenewalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Renewal\\CreateRenewalDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Renewal\\CreateRenewalDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Renewal\\CreateRenewalDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Renewal\\CreateRenewalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:41:38.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAsAAABJAAAA",
+              "Title": "RenewalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\RenewalRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RenewalRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\RenewalRepository.cs",
+              "RelativeToolTip": "Repositories\\RenewalRepository.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T04:13:30.92Z",
+              "WhenOpened": "2024-07-29T19:04:44.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "InsurancePolicy.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\InsurancePolicy.cs",
-              "RelativeDocumentMoniker": "Models\\InsurancePolicy.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\InsurancePolicy.cs",
-              "RelativeToolTip": "Models\\InsurancePolicy.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAAtAAAA",
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "Controllers\\ClaimController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T04:16:41.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Agent.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\Agent.cs",
-              "RelativeDocumentMoniker": "Models\\Agent.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\Agent.cs",
-              "RelativeToolTip": "Models\\Agent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T04:15:07.913Z",
+              "WhenOpened": "2024-07-29T19:19:03.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAkAAAAFAAAA",
+              "Title": "CreateClaimDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Claims\\CreateClaimDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Claims\\CreateClaimDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Claims\\CreateClaimDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Claims\\CreateClaimDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:39:12.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T17:34:40.154Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "HealthInsuranceAPI",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\HealthInsuranceAPI.csproj",
-              "RelativeDocumentMoniker": "HealthInsuranceAPI.csproj",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\HealthInsuranceAPI.csproj",
-              "RelativeToolTip": "HealthInsuranceAPI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-25T04:07:34.69Z",
-              "EditorCaption": ""
+              "Title": "ClaimDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Claims\\ClaimDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Claims\\ClaimDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Claims\\ClaimDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Claims\\ClaimDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:35:03.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClaimServices.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\ClaimServices.cs",
+              "RelativeDocumentMoniker": "Services\\ClaimServices.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\ClaimServices.cs",
+              "RelativeToolTip": "Services\\ClaimServices.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:53:22.126Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "IAgentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\IAgentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAgentRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\IAgentRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IAgentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "ClaimRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\ClaimRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ClaimRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\ClaimRepository.cs",
+              "RelativeToolTip": "Repositories\\ClaimRepository.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAQwGEAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:45:42.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T04:15:40.726Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "ICustomerPolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\ICustomerPolicyRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICustomerPolicyRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\ICustomerPolicyRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\ICustomerPolicyRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Title": "CustomerPolicyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\CustomerPolicyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CustomerPolicyRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\CustomerPolicyRepository.cs",
+              "RelativeToolTip": "Repositories\\CustomerPolicyRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwHsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:48:23.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T07:29:14.861Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "IPaymentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\IPaymentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IPaymentRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\IPaymentRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IPaymentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "RevivalService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\RevivalService.cs",
+              "RelativeDocumentMoniker": "Services\\RevivalService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\RevivalService.cs",
+              "RelativeToolTip": "Services\\RevivalService.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAwEwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:55:20.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\ICustomerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:44:47.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T19:09:38.82Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "IInsurancePolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\IInsurancePolicyRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IInsurancePolicyRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\IInsurancePolicyRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IInsurancePolicyRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAoAAAAFAAAA",
+              "Title": "CustomerPolicyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\CustomerPolicy\\CustomerPolicyDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CustomerPolicy\\CustomerPolicyDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\CustomerPolicy\\CustomerPolicyDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\CustomerPolicy\\CustomerPolicyDTO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswBgAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:48:50.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T20:52:53.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerPolicyServices.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\CustomerPolicyServices.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerPolicyServices.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\CustomerPolicyServices.cs",
+              "RelativeToolTip": "Services\\CustomerPolicyServices.cs",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAkwA4BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T06:14:20.568Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI\\Repositories\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Title": "CustomerPolicyController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\CustomerPolicyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerPolicyController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\CustomerPolicyController.cs",
+              "RelativeToolTip": "Controllers\\CustomerPolicyController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAkwE8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T06:44:11.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T15:57:06.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AgentServices.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\AgentServices.cs",
+              "RelativeDocumentMoniker": "Services\\AgentServices.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\AgentServices.cs",
+              "RelativeToolTip": "Services\\AgentServices.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAwE4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:04:23.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Renewal.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Renewal.cs",
+              "RelativeDocumentMoniker": "Models\\Renewal.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Renewal.cs",
+              "RelativeToolTip": "Models\\Renewal.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:59:38.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Revival.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Revival.cs",
+              "RelativeDocumentMoniker": "Models\\Revival.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Revival.cs",
+              "RelativeToolTip": "Models\\Revival.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:00:12.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\CustomerPolicy.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerPolicy.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\CustomerPolicy.cs",
+              "RelativeToolTip": "Models\\CustomerPolicy.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA4wBoAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:18:00.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateCustomerPolicyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\CustomerPolicy\\UpdateCustomerPolicyDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CustomerPolicy\\UpdateCustomerPolicyDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\CustomerPolicy\\UpdateCustomerPolicyDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\CustomerPolicy\\UpdateCustomerPolicyDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:54:03.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateCustomerPolicyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\CustomerPolicy\\CreateCustomerPolicyDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CustomerPolicy\\CreateCustomerPolicyDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\CustomerPolicy\\CreateCustomerPolicyDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\CustomerPolicy\\CreateCustomerPolicyDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:53:38.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InsurancePolicy.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\InsurancePolicy.cs",
+              "RelativeDocumentMoniker": "Models\\InsurancePolicy.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\InsurancePolicy.cs",
+              "RelativeToolTip": "Models\\InsurancePolicy.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:16:41.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InsurancePolicyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\InsurancePolicyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InsurancePolicyRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\InsurancePolicyRepository.cs",
+              "RelativeToolTip": "Repositories\\InsurancePolicyRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:28:37.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InsurancePolicyController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\InsurancePolicyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InsurancePolicyController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\InsurancePolicyController.cs",
+              "RelativeToolTip": "Controllers\\InsurancePolicyController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:05:14.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UnknownErrorException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\UnknownErrorException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\UnknownErrorException.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\UnknownErrorException.cs",
+              "RelativeToolTip": "Exceptions\\UnknownErrorException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:50:27.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RevivalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\RevivalRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RevivalRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\RevivalRepository.cs",
+              "RelativeToolTip": "Repositories\\RevivalRepository.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:07:12.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UpdateRenewalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Renewal\\UpdateRenewalDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Renewal\\UpdateRenewalDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Renewal\\UpdateRenewalDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Renewal\\UpdateRenewalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:01:46.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AgentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\AgentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AgentRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\AgentRepository.cs",
+              "RelativeToolTip": "Repositories\\AgentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:26:15.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IRevivalService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IRevivalService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IRevivalService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IRevivalService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IRevivalService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:08:32.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\AgentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgentController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\AgentController.cs",
+              "RelativeToolTip": "Controllers\\AgentController.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAwwH4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:53:36.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RevivalController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\RevivalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RevivalController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\RevivalController.cs",
+              "RelativeToolTip": "Controllers\\RevivalController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAwFQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T04:00:52.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RevivalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Revival\\RevivalDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Revival\\RevivalDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Revival\\RevivalDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Revival\\RevivalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:02:18.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateRevivalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Revival\\CreateRevivalDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Revival\\CreateRevivalDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Revival\\CreateRevivalDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Revival\\CreateRevivalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:45:31.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InsurancePolicyService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\InsurancePolicyService.cs",
+              "RelativeDocumentMoniker": "Services\\InsurancePolicyService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\InsurancePolicyService.cs",
+              "RelativeToolTip": "Services\\InsurancePolicyService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAYwFoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:10:03.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Claim.cs",
+              "RelativeToolTip": "Models\\Claim.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:15:32.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T17:47:04.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-26T17:36:20.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Auth\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Auth\\UserLoginDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:20:24.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAYwG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:22:55.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\ICustomerRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:44:47.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Repositories\\CustomerRepository.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAYwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T04:29:37.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ICustomerPolicyService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\ICustomerPolicyService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICustomerPolicyService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\ICustomerPolicyService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICustomerPolicyService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:57:33.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PolicyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Policy\\PolicyDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Policy\\PolicyDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Policy\\PolicyDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Policy\\PolicyDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:52:15.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Auth\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Auth\\UserRegisterDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\UserRegisterDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:19:51.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswGEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:17:19.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ICustomerServices.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\ICustomerServices.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICustomerServices.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\ICustomerServices.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICustomerServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:55:54.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CreatePolicyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Policy\\CreatePolicyDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Policy\\CreatePolicyDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Policy\\CreatePolicyDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Policy\\CreatePolicyDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:52:59.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "20240801023246_SeedInitialData.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Migrations\\20240801023246_SeedInitialData.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240801023246_SeedInitialData.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Migrations\\20240801023246_SeedInitialData.cs",
+              "RelativeToolTip": "Migrations\\20240801023246_SeedInitialData.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T02:32:46.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:13:30.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Agent.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Agent.cs",
+              "RelativeDocumentMoniker": "Models\\Agent.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\Agent.cs",
+              "RelativeToolTip": "Models\\Agent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T04:15:07.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CustomerServices.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\CustomerServices.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerServices.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\CustomerServices.cs",
+              "RelativeToolTip": "Services\\CustomerServices.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAswEsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:58:01.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAqwEYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:24:10.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:22:21.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:24:52.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IRevivalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IRevivalRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRevivalRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IRevivalRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRevivalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:03:42.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UpdateRevivalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Revival\\UpdateRevivalDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Revival\\UpdateRevivalDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Revival\\UpdateRevivalDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Revival\\UpdateRevivalDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T16:46:52.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "20240731154039_init.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Migrations\\20240731154039_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240731154039_init.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Migrations\\20240731154039_init.cs",
+              "RelativeToolTip": "Migrations\\20240731154039_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:40:39.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "log4net.config",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\log4net.config",
+              "RelativeDocumentMoniker": "log4net.config",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\log4net.config",
+              "RelativeToolTip": "log4net.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-31T15:39:49.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:39:12.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "HealthInsuranceAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI.csproj",
+              "RelativeDocumentMoniker": "HealthInsuranceAPI.csproj",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\HealthInsuranceAPI.csproj",
+              "RelativeToolTip": "HealthInsuranceAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-25T04:07:34.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LoginReturnDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Auth\\LoginReturnDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\LoginReturnDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Auth\\LoginReturnDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\LoginReturnDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T11:41:00.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:44:11.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IClaimRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IClaimRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IClaimRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IClaimRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IClaimRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T04:17:24.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20240731095621_init.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Migrations\\20240731095621_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240731095621_init.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Migrations\\20240731095621_init.cs",
+              "RelativeToolTip": "Migrations\\20240731095621_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:56:21.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IRenewalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IRenewalRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRenewalRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IRenewalRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRenewalRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:03:03.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IInsurancePolicyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IInsurancePolicyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IInsurancePolicyRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IInsurancePolicyRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IInsurancePolicyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:48:50.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "IClaimServices.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IClaimServices.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IClaimServices.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IClaimServices.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IClaimServices.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwA8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T08:55:30.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "PaymentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\PaymentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PaymentRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\PaymentRepository.cs",
+              "RelativeToolTip": "Repositories\\PaymentRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T07:57:09.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IAgentServices.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IAgentServices.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAgentServices.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IAgentServices.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAgentServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:45:01.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UpdateClaimDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Claims\\UpdateClaimDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Claims\\UpdateClaimDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Claims\\UpdateClaimDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Claims\\UpdateClaimDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:35:33.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IInsurancePolicy.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IInsurancePolicy.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IInsurancePolicy.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Services\\Interfaces\\IInsurancePolicy.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IInsurancePolicy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:46:23.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "AgentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Agents\\AgentDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Agents\\AgentDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Agents\\AgentDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Agents\\AgentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:48:41.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CreateAgentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Agents\\CreateAgentDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Agents\\CreateAgentDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Agents\\CreateAgentDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Agents\\CreateAgentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:47:01.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UpdatePolicyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Policy\\UpdatePolicyDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Policy\\UpdatePolicyDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Policy\\UpdatePolicyDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Policy\\UpdatePolicyDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:54:03.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "UpdateCustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Customers\\UpdateCustomerDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Customers\\UpdateCustomerDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Customers\\UpdateCustomerDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Customers\\UpdateCustomerDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:51:46.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Customers\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Customers\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Customers\\CustomerDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Customers\\CustomerDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:50:05.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CreateCustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Customers\\CreateCustomerDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Customers\\CreateCustomerDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Customers\\CreateCustomerDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Customers\\CreateCustomerDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:49:40.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "UpdateAgentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Agents\\UpdateAgentDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Agents\\UpdateAgentDTO.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Models\\DTOs\\Agents\\UpdateAgentDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\Agents\\UpdateAgentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:49:07.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "IAgentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IAgentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAgentRepository.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Repositories\\Interfaces\\IAgentRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IAgentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T06:45:42.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "AlreadyExistsException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\AlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\AlreadyExistsException.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\AlreadyExistsException.cs",
+              "RelativeToolTip": "Exceptions\\AlreadyExistsException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:06:58.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "InvalidOperationException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\InvalidOperationException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\InvalidOperationException.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\InvalidOperationException.cs",
+              "RelativeToolTip": "Exceptions\\InvalidOperationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T04:15:01.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "ClaimInvalidException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\ClaimInvalidException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\ClaimInvalidException.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\ClaimInvalidException.cs",
+              "RelativeToolTip": "Exceptions\\ClaimInvalidException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T09:06:49.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\UserNotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\UserNotFoundException.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:30:17.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "AgentNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\AgentNotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\AgentNotFoundException.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\AgentNotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\AgentNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:55:42.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\VC\\Downloads\\CapsStone\\BackEnd\\HealthInsuranceAPI\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T04:12:28.654Z"
             }
           ]
         }

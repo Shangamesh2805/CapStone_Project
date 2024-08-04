@@ -3,13 +3,13 @@
 namespace HealthInsuranceAPI.Exceptions
 {
     [Serializable]
-    internal class UnknownErrorException : Exception
+    public class UnknownErrorException : Exception
     {
         private string msg;
 
         public UnknownErrorException()
         {
-            msg = "An Error Occured while Adding the User";
+            msg = "An Error Occured while performing ";
         }
         public override string Message => msg;
     }

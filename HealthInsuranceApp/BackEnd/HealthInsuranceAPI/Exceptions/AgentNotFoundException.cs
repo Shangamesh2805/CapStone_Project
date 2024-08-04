@@ -3,12 +3,14 @@
 namespace HealthInsuranceAPI.Exceptions
 {
     [Serializable]
-    internal class AgentNotFoundException : Exception
+    public class AgentNotFoundException : Exception
     {
+        private string msg;
         public AgentNotFoundException()
         {
-
+            msg = "No Agent Found with given AgentID ";
         }
+        public override string Message => msg;
 
     }
 }

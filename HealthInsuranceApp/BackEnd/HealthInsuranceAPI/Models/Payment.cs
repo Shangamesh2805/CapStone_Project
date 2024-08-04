@@ -1,9 +1,15 @@
-﻿namespace HealthInsuranceAPI.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace HealthInsuranceAPI.Models
 {
     public class Payment
     {
-        public int PaymentID { get; set; }
-        public int CustomerPolicyID { get; set; }
+        [Key]
+        public Guid PaymentID { get; set; }
+
+        [ForeignKey("CustomerPolicy")]
+        public Guid CustomerPolicyID { get; set; }
         public decimal PaymentAmount { get; set; }
         public DateTime PaymentDate { get; set; }
         public PaymentType PaymentType { get; set; }

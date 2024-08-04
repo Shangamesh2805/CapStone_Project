@@ -4,9 +4,12 @@ namespace HealthInsuranceAPI.Repositories.Interfaces
 {
     public interface ICustomerRepository
     {
-        Customer GetCustomer(int customerId);
         void AddCustomer(Customer customer);
+        Customer GetCustomerById(Guid customerId);
         void UpdateCustomer(Customer customer);
-        void DeleteCustomer(int customerId);
+        void DeleteCustomer(Guid customerId);
+        IEnumerable<Customer> GetAllCustomers();
+        Customer GetCustomerByUserId(Guid userId);
+
     }
 }

@@ -1,8 +1,8 @@
-﻿using HealthInsuranceAPI.Models;
+﻿using System.Linq;
+using HealthInsuranceAPI.Models;
 using HealthInsuranceAPI.Repositories.Interfaces;
 using HealthInsuranceApp.Data;
-using HealthInsuranceApp.Models;
-using System.Linq;
+using HealthInsuranceAPI.Exceptions;
 
 namespace HealthInsuranceApp.Repositories
 {
@@ -15,9 +15,14 @@ namespace HealthInsuranceApp.Repositories
             _context = context;
         }
 
-        public Payment GetPayment(int paymentId)
+        public Payment GetPayment(Guid paymentId)
         {
-            return _context.Payments.Find(paymentId);
+            var payment = _context.Payments.Find(paymentId);
+            if (payment == null)
+            {
+                throw new NotFoundException($"Payment with ID {paymentId} not found.");
+            }
+            return payment;
         }
 
         public void AddPayment(Payment payment)
@@ -28,17 +33,37 @@ namespace HealthInsuranceApp.Repositories
 
         public void UpdatePayment(Payment payment)
         {
-            _context.Payments.Update(payment);
-            _context.SaveChanges();
+            try
+            {
+                var existingPayment = GetPayment(payment.PaymentID);
+                if (existingPayment == null)
+                {
+                    throw new NotFoundException($"Payment with ID {payment.PaymentID} not found.");
+                }
+                _context.Payments.Update(payment);
+                _context.SaveChanges();
+            }
+            catch(Exception) 
+            {
+                throw new InvalidOperationException();
+            }
         }
 
-        public void DeletePayment(int paymentId)
+        public void DeletePayment(Guid paymentId)
         {
-            var payment = GetPayment(paymentId);
-            if (payment != null)
+            try
             {
+                var payment = GetPayment(paymentId);
+                if (payment == null)
+                {
+                    throw new NotFoundException($"Payment with ID {paymentId} not found.");
+                }
                 _context.Payments.Remove(payment);
                 _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Occured While Deleting");
             }
         }
     }
