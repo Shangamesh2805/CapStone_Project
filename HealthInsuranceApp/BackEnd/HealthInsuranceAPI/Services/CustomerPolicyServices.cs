@@ -24,13 +24,13 @@ namespace HealthInsuranceAPI.Services
         private readonly ICustomerRepository _customerRepository;
 
         public CustomerPolicyService(
-            ICustomerPolicyRepository customerPolicyRepository,
-            IClaimRepository claimRepository,
-            IPaymentRepository paymentRepository,
-            IRenewalRepository renewalRepository,
-            IRevivalRepository revivalRepository,
-            IInsurancePolicyRepository policyRepository,
-            ICustomerRepository customerRepository)
+        ICustomerPolicyRepository customerPolicyRepository,
+        IClaimRepository claimRepository,
+        IPaymentRepository paymentRepository,
+        IRenewalRepository renewalRepository,
+        IRevivalRepository revivalRepository,
+        IInsurancePolicyRepository policyRepository,
+        ICustomerRepository customerRepository)
         {
             _customerPolicyRepository = customerPolicyRepository;
             _claimRepository = claimRepository;
@@ -40,8 +40,11 @@ namespace HealthInsuranceAPI.Services
             _policyRepository = policyRepository;
             _customerRepository = customerRepository;
         }
-
-        public CustomerPolicyDTO GetCustomerPolicyById(Guid customerPolicyId)
+       
+        
+    
+    
+    public CustomerPolicyDTO GetCustomerPolicyById(Guid customerPolicyId)
         {
             var customerPolicy = _customerPolicyRepository.GetCustomerPolicy(customerPolicyId);
             if (customerPolicy == null)
@@ -109,7 +112,7 @@ namespace HealthInsuranceAPI.Services
                 CustomerID = customer.CustomerID,
                 PolicyID = customerPolicyDto.PolicyID,
                 Status = customerPolicyDto.Status,
-                DiscountEligibility = false, // Default to false, can be updated later if applicable
+                DiscountEligibility = false,  
                 StartDate = startDate,
                 ExpiryDate = expiryDate
             };
@@ -210,18 +213,18 @@ namespace HealthInsuranceAPI.Services
 
         public IEnumerable<CustomerPolicyDTO> GetCustomerPolicyByCustomerId(Guid customerId)
         {
-            // Fetch the customer using the customer ID
+             
             var customer = _customerRepository.GetCustomerById(customerId);
             if (customer == null)
                 throw new Exception("Customer not found.");
 
-            // Fetch the customer policies with the associated InsurancePolicy and related entities
+             
             var customerPolicies = _customerPolicyRepository.GetCustomerPoliciesByCustomerId(customerId);
 
             if (customerPolicies == null || !customerPolicies.Any())
                 throw new Exception("No customer policies found for this customer.");
 
-            // Map the customer policies to DTOs, including all necessary details
+             
             return customerPolicies.Select(cp => new CustomerPolicyDTO
             {
                 CustomerPolicyID = cp.CustomerPolicyID,
@@ -275,6 +278,54 @@ namespace HealthInsuranceAPI.Services
             return _customerRepository.GetCustomerByUserId(userId);
         }
 
+        CustomerPolicyDTO ICustomerPolicyService.GetCustomerPolicyDetails(Guid customerPolicyId)
+        {
+            var customerPolicy = _customerPolicyRepository.GetCustomerPolicyDetails(customerPolicyId);
+            if (customerPolicy == null)
+                throw new Exception("Customer policy not found");
 
+            return new CustomerPolicyDTO
+            {
+                CustomerPolicyID = customerPolicy.CustomerPolicyID,
+                CustomerID = customerPolicy.CustomerID,
+                PolicyID = customerPolicy.PolicyID,
+
+                DiscountEligibility = customerPolicy.DiscountEligibility,
+
+                StartDate = customerPolicy.StartDate,
+                ExpiryDate = customerPolicy.ExpiryDate,
+                Claims = customerPolicy.Claims?.Select(c => new ClaimDTO
+                {
+                    ClaimID = c.ClaimID,
+                    CustomerPolicyID = c.CustomerPolicyID,
+                    ClaimAmount = c.ClaimAmount,
+                    ClaimDate = c.ClaimDate,
+                    ClaimStatus = c.ClaimStatus.ToString(),
+                    Reason = c.Reason
+                }).ToList() ?? new List<ClaimDTO>(),
+                Payments = customerPolicy.Payments?.Select(p => new PaymentDTO
+                {
+                    PaymentID = p.PaymentID,
+                    Amount = p.PaymentAmount,
+                    Date = p.PaymentDate,
+                    PaymentType = p.PaymentType
+                }).ToList() ?? new List<PaymentDTO>(),
+                Renewals = customerPolicy.Renewals?.Select(r => new RenewalDTO
+                {
+                    RenewalID = r.RenewalID,
+                    RenewalDate = r.RenewalDate,
+                    RenewalAmount = r.RenewalAmount,
+                    DiscountApplied = r.DiscountApplied
+                }).ToList() ?? new List<RenewalDTO>(),
+                Revivals = customerPolicy.Revivals?.Select(r => new RevivalDTO
+                {
+                    RevivalID = r.RevivalID,
+                    RevivalDate = r.RevivalDate,
+                    Reason = r.Reason,
+                    IsApproved = r.IsApproved
+                }).ToList() ?? new List<RevivalDTO>()
+            };
+        }
+    
     }
 }

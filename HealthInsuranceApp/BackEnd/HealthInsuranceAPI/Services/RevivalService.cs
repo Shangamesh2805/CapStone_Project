@@ -26,7 +26,7 @@ public class RevivalService : IRevivalService
             CustomerPolicyID = revivalDto.CustomerPolicyID,
             RevivalDate = revivalDto.RevivalDate,
             Reason = revivalDto.Reason,
-            IsApproved = false // Default to false, approval required
+            IsApproved = false 
         };
 
         _revivalRepository.AddRevival(revival);

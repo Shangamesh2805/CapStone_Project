@@ -2,6 +2,7 @@
 using System.Linq;
 using HealthInsuranceAPI.Exceptions;
 using HealthInsuranceAPI.Models;
+using HealthInsuranceAPI.Models.DTOs.CustomerPolicy;
 using HealthInsuranceAPI.Repositories.Interfaces;
 using HealthInsuranceApp.Data;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,7 @@ namespace HealthInsuranceApp.Repositories
             _context = context;
         }
 
+
         public CustomerPolicy GetCustomerPolicy(Guid customerPolicyId)
         {
             try
@@ -28,8 +30,7 @@ namespace HealthInsuranceApp.Repositories
                 {
                     throw new NotFoundException($"Customer Policy with ID {customerPolicyId} not found.");
                 }
-
-                // Check if InsurancePolicy is null and throw a specific exception
+ 
                 if (customerPolicy.InsurancePolicy == null)
                 {
                     throw new NotFoundException($"Associated insurance policy not found for Customer Policy ID {customerPolicyId}.");
@@ -119,6 +120,16 @@ namespace HealthInsuranceApp.Repositories
         {
             return _context.CustomerPolicies.ToList();
         }
+        public CustomerPolicy GetCustomerPolicyDetails(Guid customerPolicyId)
+        {
+            return _context.CustomerPolicies
+                           .Include(cp => cp.InsurancePolicy)
+                           .Include(cp => cp.Claims)
+                           .Include(cp => cp.Payments)
+                           .Include(cp => cp.Renewals)
+                           .Include(cp => cp.Revivals)
+                           .FirstOrDefault(cp => cp.CustomerPolicyID == customerPolicyId);
+        }
         public IEnumerable<CustomerPolicy> GetCustomerPoliciesByCustomerId(Guid customerId)
         {
             return _context.CustomerPolicies                
@@ -131,5 +142,9 @@ namespace HealthInsuranceApp.Repositories
                 .ToList();
         }
 
+        public CustomerPolicyDTO GetCustomerDetails(Guid customerPolicyId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

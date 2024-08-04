@@ -65,9 +65,9 @@ namespace HealthInsuranceAPI.Services
             }
             catch (Exception ex)
             {
-                // Log detailed exception
+             
                 Console.WriteLine($"Error while raising claim: {ex.Message}");
-                Console.WriteLine(ex.StackTrace); // Log stack trace for detailed debugging
+                Console.WriteLine(ex.StackTrace); 
                 throw new Exception("An error occurred while processing your request.");
             }
         }

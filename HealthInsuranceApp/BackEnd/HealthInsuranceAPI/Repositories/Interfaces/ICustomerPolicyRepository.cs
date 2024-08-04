@@ -1,4 +1,5 @@
 ﻿using HealthInsuranceAPI.Models;
+using HealthInsuranceAPI.Models.DTOs.CustomerPolicy;
 using System;
 
 namespace HealthInsuranceAPI.Repositories.Interfaces
@@ -13,7 +14,8 @@ namespace HealthInsuranceAPI.Repositories.Interfaces
         Renewal GetRenewalById(Guid renewalId);
         Renewal GetLastRenewal(Guid customerPolicyId);
         IEnumerable<CustomerPolicy> GetAllCustomerPolicies();
-
+        CustomerPolicyDTO GetCustomerDetails(Guid customerPolicyId);
+        CustomerPolicy GetCustomerPolicyDetails(Guid customerPolicyId);
         IEnumerable<CustomerPolicy> GetCustomerPoliciesByCustomerId(Guid customerId);
     }
 }

@@ -63,7 +63,7 @@ namespace HealthInsuranceAPI.Controllers
         {
             try
             {
-                // Retrieve the UserId from the current user's claims
+                 
                 var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
                 if (userIdClaim == null)
                 {
@@ -72,7 +72,7 @@ namespace HealthInsuranceAPI.Controllers
 
                 var userId = Guid.Parse(userIdClaim.Value);
 
-                // Retrieve the customer details using the userId
+                 
                 var customer = _customerPolicyService.GetCustomerByUserId(userId);
                 if (customer == null)
                 {
@@ -92,6 +92,20 @@ namespace HealthInsuranceAPI.Controllers
                 return StatusCode(500, new { message = ex.Message });
             }
         }
+        [Authorize]
+        [HttpGet("{customerPolicyId}")]
+        public IActionResult GetCustomerPolicyDetails(Guid customerPolicyId)
+        {
+            try
+            {
+                var customerPolicyDetails = _customerPolicyService.GetCustomerPolicyDetails(customerPolicyId);
+                return Ok(customerPolicyDetails);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
 
 
         [Authorize]
@@ -100,7 +114,7 @@ namespace HealthInsuranceAPI.Controllers
         {
             try
             {
-                // Retrieve the UserId from the current user's claims
+                
                 var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
                 if (userIdClaim == null)
                 {

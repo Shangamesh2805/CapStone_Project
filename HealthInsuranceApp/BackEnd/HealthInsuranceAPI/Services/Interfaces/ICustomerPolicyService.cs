@@ -15,6 +15,7 @@ namespace HealthInsuranceAPI.Services.Interfaces
         void CheckRenewalEligibility(Guid customerPolicyId);
         IEnumerable<CustomerPolicyDTO> GetAllCustomerPolicies();
         Customer GetCustomerByUserId(Guid userId);
+        CustomerPolicyDTO GetCustomerPolicyDetails(Guid customerPolicyId);
 
     }
 }

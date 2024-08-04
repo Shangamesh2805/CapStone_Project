@@ -51,7 +51,7 @@ public class RenewalService : IRenewalService
         if (hasRevival)
         {
             expiryDate = today;
-            customerPolicy.ExpiryDate = expiryDate.AddMonths(1); // Extend policy expiration date due to successful revival
+            customerPolicy.ExpiryDate = today.AddMonths(1); 
             _customerPolicyRepository.UpdateCustomerPolicy(customerPolicy);
         }
 
@@ -63,7 +63,7 @@ public class RenewalService : IRenewalService
             RenewalDate = today,
             RenewalAmount = renewalAmount,
             DiscountApplied = CheckDiscountEligibility(customerPolicy),
-            IsRenewed = false // Renewal is completed after payment
+            IsRenewed = false 
         };
 
         _renewalRepository.AddRenewal(renewal);

@@ -55,7 +55,7 @@ public class PaymentService : IPaymentService
             renewal.IsRenewed = true;
             _renewalRepository.UpdateRenewal(renewal);
 
-            // Update customer policy start and end dates
+             
             _renewalService.UpdateCustomerPolicyDates(customerPolicy.CustomerPolicyID);
         }
         catch (Exception ex)
